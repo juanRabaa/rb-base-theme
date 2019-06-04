@@ -1,0 +1,233 @@
+/*
+Theme Name: RB Base Theme
+Theme URI:
+Author: Juan Cruz Rabaglia
+Author URI:
+Description:
+Version: 1.0
+License:
+License URI:
+Tags:
+*/
+
+/* =WordPress Core
+*************************************************************************************************************************/
+
+img.alignright { float: right; margin: 0 0 1em 1em; }
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.screen-reader-text { display: none; }
+
+/*Basic
+*************************************************************************************************************************/
+*{
+	font-family: "Raleway" ,"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body {
+	height: 100%;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	font-size: 1.6rem; /* px fallback */
+	/* font-size: 1.2rem; */ /* default font-size for document */
+	line-height: 1.5; /* a nice line-height */
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: #27ccef;
+	text-decoration: none;
+}
+
+*{
+	font-family: "Raleway" ,"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+p {
+    line-height: 1.7;
+	font-family: "Raleway" ,"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-family: "Raleway" ,"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+blockquote, dl, figure, form, ol, p, pre, table, ul {
+    margin-bottom: 1.5rem;
+}
+
+ol, ul {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+ul {
+    list-style: inside;
+}
+
+li {
+    margin-bottom: 0;
+}
+
+th, td {
+    border-bottom: 0px;
+}
+
+.svg-invisible{
+	width: 0;
+	height: 0;
+	position: absolute;
+	z-index: -100;
+}
+
+.container-fluid{
+	max-width: 100%;
+	padding: 0;
+}
+
+.huge-container {
+    max-width: 1140px;
+}
+
+.huge-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 550px){
+.huge-container {
+    width: 85%;
+}
+}
+
+@media (min-width: 400px){
+.huge-container {
+    width: 90%;
+    padding: 0;
+}
+}
+
+.container-760 {
+	width: 100%;
+}
+
+@media (min-width: 760px){
+	.container-760{
+		width: 80%;
+		max-width: 1080px;
+	}
+}
+
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select{
+	color: #000000
+}
+
+.container{
+    max-width: 1140px;
+}
+
+/* ========================================================================== */
+/* BEGGINS */
+/* ========================================================================== */
+#rb-common-header {
+    height: 8rem;
+    background-color: #eeeeee00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+}
+
+#rb-common-header img {
+    max-height: 100%;
+}
+
+#rb-main {
+    margin: 2rem 0;
+}
+
+.post-box {
+    position: relative;
+    margin-bottom: 4rem;
+    background-color: #fd9f00;
+    overflow: hidden;
+}
+
+.post-box:hover .post-image {
+    transform: scale(1.1);
+}
+
+.post-box .post-image {
+    height: 22rem;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* margin-bottom: 0.5rem; */
+    transition: all 0.2s;
+}
+
+.post-box .post-image-container {
+    height: 22rem;
+    overflow: hidden;
+}
+
+.post-box .post-info{
+    padding: 1rem;
+}
+
+.post-box .post-info .post-title {
+    margin-bottom: 0;
+    font-size: 2.2rem;
+    color: #ffffff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.post-box .post-info .post-excerpt {
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.post-box .post-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*SINGLE*/
+.posts-content .post-image {
+    height: 40rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.posts-content .post-image-container {
+    margin-bottom: 1rem;
+}
+
+.posts-content .post-title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
