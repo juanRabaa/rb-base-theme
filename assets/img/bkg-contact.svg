@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1370px" height="855px" viewBox="0 0 1370 855" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M0 0L1370 0L1370 855L0 855L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Group-12">
+    <path d="M0 0L1370 0L1370 855L0 855L0 0Z" fill-opacity="0" />
+    <g clip-path="url(#mask_1)">
+      <path d="M570 1087C884.802 1087 1140 843.667 1140 543.5C1140 243.333 884.802 0 570 0C255.198 0 0 243.333 0 543.5C0 843.667 255.198 1087 570 1087Z" transform="translate(696 0)" id="Oval" fill="none" stroke="#979797" stroke-width="1" stroke-dasharray="8 8" />
+      <path d="M1283.5 2448C1992.36 2448 2567 1900 2567 1224C2567 548.003 1992.36 0 1283.5 0C574.643 0 0 548.003 0 1224C0 1900 574.643 2448 1283.5 2448Z" transform="translate(-74 0)" id="Oval" fill="none" stroke="#979797" stroke-width="1" stroke-dasharray="8 8" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,73 @@
+.rb-slides-container{
+    height: 100%;
+    width: 100%;
+}
+
+/* ========================================================================== */
+/* FIXED */
+/* ========================================================================== */
+.rb-slider[rb-slider-type="fixed"] > .rb-slides-container > .rb-slide {
+    width: 100%;
+    height: 100%;
+}
+
+/* ========================================================================== */
+/* ADAPT TO CONTENT */
+/* ========================================================================== */
+.rb-slider[rb-slider-type="adaptToContent"] > .rb-slides-container > .rb-slide {
+    width: 100%;
+    height: min-content;
+}
+
+/* ========================================================================== */
+/* SWIPE */
+/* ========================================================================== */
+.rb-slider[rb-slider-animation="swipe"]{
+    overflow: hidden;
+}
+
+.rb-slider[rb-slider-animation="swipe"] > .rb-slides-container{
+    display: flex;
+    height: 100%;
+    position: relative;
+    overflow: visible!important;
+}
+
+.rb-slider[rb-slider-animation="swipe"] > .rb-slides-container > .rb-slide {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    position: relative;
+}
+
+/* ========================================================================== */
+/* FADE */
+/* ========================================================================== */
+.rb-slider[rb-slider-animation="fade"]{
+    overflow: hidden;
+}
+
+.rb-slider[rb-slider-animation="fade"] > .rb-slides-container{
+    /* display: flex; */
+    height: 100%;
+    position: relative;
+    overflow: visible!important;
+    flex-direction: column-reverse;
+}
+
+.rb-slider[rb-slider-animation="fade"] > .rb-slides-container > .rb-slide {
+    /* height: min-content; */
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.rb-slider[rb-slider-animation="fade"] > .rb-slides-container > .rb-slide.active{
+    z-index: 1;
+}
